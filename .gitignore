@@ -1,0 +1,5 @@
+#Directories
+granite_engine/.vs/
+
+#Files
+granite_engine/*.user
