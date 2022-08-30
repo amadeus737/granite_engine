@@ -1,0 +1,3 @@
+[submodule "granite_engine/vendor/spdlog"]
+	path = granite_engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

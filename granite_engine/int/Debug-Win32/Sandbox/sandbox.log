@@ -1,0 +1,8 @@
+﻿  Game.cpp
+D:\Projects\granite_engine\granite_engine\src\Granite\GameWindow.h(36,25): warning C4251: 'Granite::GameWindow::OnKill': class 'std::function<void (void)>' needs to have dll-interface to be used by clients of class 'Granite::GameWindow'
+D:\Projects\granite_engine\granite_engine\src\Granite\GameWindow.h(36): message : see declaration of 'std::function<void (void)>'
+D:\Projects\granite_engine\granite_engine\src\Granite\GameWindow.h(64,16): warning C4251: 'Granite::GameWindow::_args': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'Granite::GameWindow'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xstring(4920): message : see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+D:\Projects\granite_engine\granite_engine\src\Granite\Application.h(30,41): warning C4251: 'Granite::Application::_fpsFrameBeginTime': class 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>' needs to have dll-interface to be used by clients of class 'Granite::Application'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\chrono(687): message : see declaration of 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::nanoseconds>'
+  sandbox.vcxproj -> D:\Projects\granite_engine\granite_engine\bin\Debug-Win32\Sandbox\Sandbox.exe

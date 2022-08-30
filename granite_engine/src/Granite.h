@@ -4,3 +4,4 @@
 
 #include "Granite/Application.h"
 #include "Granite/EntryPoint.h"
+#include "Granite/GameWindow.h"
