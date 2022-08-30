@@ -1,7 +1,7 @@
 #include <Granite.h>
 #include <stdio.h>
 
-class Game : public Granite::Application
+class Game : GraniteGame
 {
 public:
 	int i;
@@ -11,10 +11,7 @@ public:
 		i = 0;
 	}
 
-	~Game()
-	{
-
-	}
+	~Game() { }
 
 	void Update() override
 	{
@@ -23,9 +20,6 @@ public:
 
 		i++;
 	}
-};
+}; 
 
-Granite::Application* Granite::CreateApplication()
-{
-	return new Game();
-}
+GRANITE_GAME_CREATE
